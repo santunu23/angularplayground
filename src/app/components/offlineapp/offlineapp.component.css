@@ -1,0 +1,17 @@
+.columnbox{
+    background-color: #eee;
+    margin:20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+   
+
+
+.text-header>h1{
+    margin-top: 1rem;
+    font-family: 'Anek Latin', sans-serif;
+    color:blue;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
