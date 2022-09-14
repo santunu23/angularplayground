@@ -20,13 +20,15 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import { ReactiveformComponent } from './components/reactiveform/reactiveform.component';
+import { HttpwithoutserviceComponent } from './components/httpwithoutservice/httpwithoutservice.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OfflineappComponent,
     DynamicformComponent,
-    ReactiveformComponent
+    ReactiveformComponent,
+    HttpwithoutserviceComponent
   ],
   imports: [
     BrowserModule,

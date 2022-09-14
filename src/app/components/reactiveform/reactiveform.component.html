@@ -42,7 +42,7 @@
                   </div>
                 </div> -->
                 <label for="full-name">Full Name:</label>
-                <input id="full-name"  class="form-control" type="text" formControlName="fullName" required>
+                <input id="full-name"  placeholder="Your Full Name" class="form-control" type="text" formControlName="fullname" required>
                 <div *ngIf="registrationForm.controls['fullName'].invalid && registrationForm.controls['fullName'].touched" >
                     <div *ngIf="registrationForm.controls['fullName'].errors['required']">
                             Name is Required.
